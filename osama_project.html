@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dr_Osama Sh</title>
+
+<style>
+
+body{
+  margin:0;
+  font-family: system-ui;
+  background: #695b00;
+  color: white;
+}
+
+/* ================= HEADER ================= */
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: sticky;
+  top: 0; 
+  background: rgba(0,0,0,0.7);    
+  flex-wrap: wrap;
+}
+
+header h1{
+  font-size: 20px;
+}
+
+.logo {
+  width: 60px; 
+  height: 60px;      
+  border-radius: 50%;
+  object-fit: cover; 
+}
+
+/* NAV */
+nav {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+/* ================= HOME ================= */
+.Home{ 
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.Home h2{
+  font-size: 28px;
+}
+
+.btn{
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  width: 200px;
+  max-width: 100%;
+}
+
+/* ================= CARD ================= */
+.card{
+  background: black;
+  padding:20px;
+  margin: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+}
+
+/* ================= FOOTER ================= */
+footer {
+  background: #111;
+  text-align: center;
+  padding: 15px;
+  margin-top: 120px;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px){
+
+  header{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav{
+    justify-content: center;
+  }
+
+  header h1{
+    font-size: 18px;
+  }
+
+  .Home h2{
+    font-size: 22px;
+  }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Dr. Osama's Animal Clinic</h1>
+  <img src="img/5456381914211095809_121.jpg" class="logo">
+
+  <nav>
+    <a href="osama_project.html">الرئيسية</a>
+    <a href="o3.html">الخدمات</a>
+    <a href="o3.html">حجز موعد</a>
+    <a href="o4.html">نصائح</a>
+    <a href="o5.html">تواصل معنا</a>
+  </nav>
+</header>  
+
+<section class="Home">
+  <h2>مرحبا بكم في عيادة الدكتور أسامة شبير للحيوانات</h2>
+  <p>فريق مختص وخبرة كبيرة في الاهتمام بحيوانك</p>
+ <a href="o3.html" target="_blank" class="o3">
+  <button class="btn">أحجز الأن</button>
+ </a>
+</section>
+
+<section class="card">
+  <p>
+    نحن في عيادتنا البيطرية نسعى لتقديم أفضل رعاية صحية للحيوانات الأليفة...
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Dr_Osama Sh - جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
